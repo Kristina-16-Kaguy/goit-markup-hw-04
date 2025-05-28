@@ -84,6 +84,23 @@ header {
   display: block;
 }
 
+.header-link-current {
+  position: relative;
+  color: #404bbf;
+}
+
+.header-link-current:active::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  bottom: -28px;
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .header-link:hover {
   color: #404bbf;
 }
