@@ -159,6 +159,9 @@ header {
     url(../images/hero-bgn.jpg);
   padding-top: 188px;
   padding-bottom: 188px;
+  width: 1440px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
