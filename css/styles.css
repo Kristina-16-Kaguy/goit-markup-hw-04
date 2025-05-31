@@ -333,12 +333,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-socialmedia-link :hover,
-.team-socialmedia-link :focus {
-  background-color:  #404bbf;
+.team-socialmedia-link:hover,
+.team-socialmedia-link:focus {
+  background-color: #404bbf;
 }
 
 .sc-icon {
@@ -441,7 +441,7 @@ header {
 }
 
 .footer-social-title {
-  font-weight: 500
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
@@ -452,7 +452,7 @@ header {
   display: flex;
   margin: 0 auto;
   padding-left: 120px;
-  gap: 16px; 
+  gap: 16px;
 }
 .footer-socialmedia-list {
   width: 40px;
