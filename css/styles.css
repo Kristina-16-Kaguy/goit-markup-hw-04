@@ -94,7 +94,6 @@ header {
 
 .header-link.current::after {
   content: '';
-  position: absolute;
   left: 0;
   position: absolute;
   bottom: -1px;
@@ -162,6 +161,7 @@ header {
   width: 1440px;
   background-position: center center;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -243,6 +243,22 @@ header {
   color: #434455;
 }
 
+.features-icon-list {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px 24px 100px;
+}
+
+/* .features-icon {
+} */
+
 /* TEAM */
 
 .team {
@@ -256,6 +272,8 @@ header {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   background-color: #fff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
@@ -275,7 +293,7 @@ header {
 
 .team-caption {
   padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 .team-member {
@@ -293,6 +311,34 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-socialmedia {
+  gap: 24px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.team-socialmedia-list {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-socialmedia-list:hover {
+  background-color: #31d0aa;
+}
+
+.sc-icon {
+  fill: #f4f4fd;
 }
 
 /* PORTFOLIO */
