@@ -158,10 +158,11 @@ header {
     url(../images/hero-bgn.jpg);
   padding-top: 188px;
   padding-bottom: 188px;
-  width: 1440px;
+  max-width: 1440px;
   background-position: center center;
   background-repeat: no-repeat;
   margin: 0 auto;
+  background-size: cover;
 }
 
 .hero-title {
@@ -192,6 +193,7 @@ header {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
