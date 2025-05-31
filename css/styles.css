@@ -399,13 +399,13 @@ header {
 
 .footer-container {
   justify-content: left;
-  align-items: flex-start;
+  align-items: baseline;
   flex-wrap: wrap;
   display: flex;
 }
 
 .footer-logo-text {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -439,15 +439,18 @@ header {
 }
 
 .footer-social-title {
+  font-weight: 500
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-socialmedia {
   display: flex;
   margin: 0 auto;
   padding-left: 120px;
+  gap: 16px; 
 }
 .footer-socialmedia-list {
   width: 40px;
