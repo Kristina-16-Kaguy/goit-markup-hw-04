@@ -225,6 +225,7 @@ header {
 
 .features-subtitle {
   font-size: 20px;
+  font-weight: 500;
   margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -254,7 +255,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 100px 24px 100px;
 }
 
 /* .features-icon {
@@ -299,6 +299,7 @@ header {
 
 .team-member {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
@@ -311,15 +312,11 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
+  margin-bottom: 8px;
 }
 
 .team-socialmedia {
   gap: 24px;
-  padding-top: 8px;
-  padding-right: 16px;
-  padding-bottom: 32px;
-  padding-left: 16px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -384,6 +381,7 @@ header {
 
 .portfolio-title {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
